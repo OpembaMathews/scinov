@@ -99,9 +99,10 @@ return [
     */
 
     'from' => [
-        'address' => env('MAIL_FROM_ADDRESS', 'hello@example.com'),
-        'name' => env('MAIL_FROM_NAME', 'Example'),
+        'address' => env('MAIL_FROM_ADDRESS', 'opemba.m@gmail.com'),
+        'name' => env('MAIL_FROM_NAME', 'SCINOV AFRICA'),
     ],
+    'reply_to' => ['address' => 'opemba.m@gmail.com', 'name' => 'SCIENCE INNOVATION AFRICA'],
 
     /*
     |--------------------------------------------------------------------------
