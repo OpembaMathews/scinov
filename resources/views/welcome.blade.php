@@ -2,18 +2,20 @@
 @section('title', 'Science Innovation Africa')
 
 @section('content')
+
+
     <!-- ======= Hero Section ======= -->
     <section id="hero">
-        <div id="heroCarousel" data-bs-interval="5000" class="carousel slide carousel-fade" data-bs-ride="carousel">
+        <div id="heroCarousel" data-bs-interval="5000" class="carousel slide carousel-fade" data-bs-ride="carousel" >
 
             <div class="carousel-inner" role="listbox">
 
                 <!-- Slide 1 -->
-                <div class="carousel-item active" style="background-image: url(/img/slide/magutu1.jpeg);">
+                <div class="carousel-item active" style="background-image: url(/img/slide/magutu_lab.jpeg);">
                     <div class="carousel-container">
                         <div class="carousel-content animate__animated animate__fadeInUp">
                             <h2 class="display-5">SCIENCE INNOVATION AFRICA</span></h2>
-                            <p class="lead">Scratch Programming sessions in Magutu Girls High School.</p>
+                            <p class="lead">Sample School computer laboratory.</p>
                             <div class="text-center">
                                 <a href="#" class="btn-get-started">Donate</a>
                             </div>
@@ -22,12 +24,11 @@
                 </div>
 
                 <!-- Slide 2 -->
-                <div class="carousel-item" style="background-image: url(/img/slide/baraka1.JPG);">
+                <div class="carousel-item" style="background-image: url(/img/slide/wandumbi_sec.jpeg);">
                     <div class="carousel-container">
                         <div class="carousel-content animate__animated animate__fadeInUp">
                             <h2 class="display-5">SCIENCE INNOVATION AFRICA</h2>
-                            <p class="lead ">Offering food and book donations at the Baraka Childrens home in Nyeri Embassy
-                                area.</p>
+                            <p class="lead ">Upgraded computer lab facility at St.Catherine Mugunda Girls.</p>
                             <div class="text-center">
                                 <a href="#" class="btn-get-started">Donate</a>
                             </div>
@@ -63,6 +64,8 @@
         </div>
     </section>
     <!-- ======= End Hero Section ======= -->
+
+
     <section id="about-us" class="about-us " style="background-color: rgb(230, 232, 252)">
         <div class="container bg-transparent  " data-aos="fade-up">
 
@@ -91,83 +94,48 @@
             <div class="row">
                 <!-- News Articles -->
                 <div class="col-md-4">
-                    <div class="card">
-                        <img src="{{ asset('img/slide/karatinadexc.JPG') }}" alt="News Article 1" class="card-img-top">
+                    <div class="card text-justify">
+                        <img src="{{ asset('img/slide/karatinadexc.JPG') }}" alt="News Article 1" class="card-img-top mx-auto d-block pt-2" style="max-width: 90%;">
                         <div class="card-body">
-                            <h5 class="card-title">Digital Exchange Cohort 2</h5>
-                            <p class="card-text">The Exchange program is an exchange project by SCINOV AFRICA in partnership
-                                with the National Taiwan University of Science and Technology, an institute of Digital
-                                Learning and Education.</p>
+                            <h5 class="card-title">Digital Cultural Exchange 2</h5>
+                            <p class="card-text">Join our virtual program connecting Kenyan and 
+                                Taiwanese students for cultural exchange, mentorship, and learning about the SDGs. The Program fosters global citizenship.... </p>
                             <a href="{{ url('/events') }}" class="btn btn-primary">Read More</a>
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4">
-                    <div class="card">
-                        <img src="{{ asset('img/slide/eswatinicoding1.jpeg') }}" alt="News Article 2" class="card-img-top">
+                <div class="col-md-4 ">
+                    <div class="card text-justify">
+                        <img src="{{ asset('img/slide/eswatinicoding1.jpeg') }}" alt="News Article 2" class="card-img-top mx-auto d-block pt-2" style="max-width: 90%;">
                         <div class="card-body">
                             <h5 class="card-title">Coding Training in Eswatini</h5>
-                            <p class="card-text">In Eswatini we have certified 20 kids and 6 teachers, and now there is
-                                ongoing training of grade 3 kids to form 4 students.</p>
+                            <p class="card-text">We're now offering free coding training in Eswatini's educational institutions,
+                                 empowering students with vital ICT skills.</p>
                             <a href="{{ url('/events') }}" class="btn btn-primary">Read More</a>
                         </div>
                     </div>
                 </div>
                 <div class="col-md-4">
-                    <div class="card">
-                        <img src="{{ asset('img/slide/symposium_victors.jpg') }}" alt="News Article 3" class="card-img-top">
+                    <div class="card text-justify">
+                        <img src="{{ asset('img/slide/code_edu.jpg') }}" alt="News Article 3" class="card-img-top mx-auto d-block pt-2"style="max-width: 90%;">
                         <div class="card-body">
                             <h5 class="card-title">Scratch Programming Symposium 2</h5>
-                            <p class="card-text">We had a scratch programming symposium on July 22, 2023, in which 12 of our
-                                partner schools participated. Scratch symposium is an annual activity organized by SCINOV
-                                Africa.</p>
+                            <p class="card-text">Explore the highlights and outcomes of our recent Scratch Programming Symposium 2, 
+                                an event that immersed students and educators in the world of coding and creativity.</p>
                             <a href="{{ url('/events') }}" class="btn btn-primary">Read More</a>
                         </div>
                     </div>
                 </div>
             </div>
             <br>
-            <div class="row">
-                <!-- Recent Activities -->
-                <div class="col-md-4">
-                    <div class="card">
-                        <div class="card-body">
-                            <h5 class="card-title">
-                                <a href="{{ url('/events') }}"> NTHU Student Volunteer Visitation</a>
-                            </h5>
-                            <p class="card-text">2023 Student Volunteer visitations.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="card">
-                        <div class="card-body">
-                            <h5 class="card-title">
-                                <a href="{{ url('/events') }}"> Taiwan Tech Visitation</a>
-                            </h5>
-                            <p class="card-text">Taiwan Tech pays a visit to our schools.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="card">
-                        <div class="card-body">
-                            <h5 class="card-title">
-                                <a href="{{ url('/events') }}"> 2023 Computer Donations</a>
-                            </h5>
-                            <p class="card-text">6 Schools in Nyeri county receive computers.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
+
         </div>
     </section>
 
     <section class="hero" data-aos="fade-up">
         <div class="hero-bg"></div>
         <div class="hero-content">
-            <h1>
-                Let's Raise the Digital Bar for Digital Education</h1>
+            {{-- <h1>Let's Raise the Digital Bar for Digital Education.</h1> --}}
         </div>
     </section>
 
@@ -250,8 +218,9 @@
 
         </div>
     </section><!-- End Pillars Section -->
-    <!-- Feedbacks Section -->
 
+
+    <!-- Feedbacks Section -->
     <section id="faq" class="faq section-bg">
         <div class="section-title">
             <h2>FEEDBACK SECTION</h2>
@@ -265,6 +234,8 @@
 
     </section>
     <!-- End of Feedbacks Section -->
+
+
     <!-- Donation Section -->
     <section class="scrolling-background text-white py-3" style=" height:auto;">
         <div class="container-fluid" style="background-color: rgba(2, 2, 80, 0.796); height:auto;">
@@ -298,6 +269,8 @@
             <br>
         </div>
     </section>
+
+
     <!-- ======= Frequently Asked Questions Section ======= -->
     <section id="faq" class="faq section-bg">
         <div class="container" data-aos="fade-up">

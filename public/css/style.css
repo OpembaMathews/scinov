@@ -367,7 +367,7 @@ h6 {
 --------------------------------------------------------------*/
 #hero {
   width: 100%;
-  height: 100vh;
+  height: 80vh;
   background-color: rgba(8, 0, 255, 0.8);
   overflow: hidden;
   position: relative;
@@ -399,6 +399,7 @@ h6 {
 }
 
 #hero .carousel-content {
+  max-height: fit-content;
   background: #0d0acec4;
   padding: 20px;
   color: #fff;
@@ -559,9 +560,9 @@ h6 {
 .hero {
   /* scroll-padding-top: 1000px; */
   position: relative;
-  height: 60vh; /* Adjust the height as needed */
+  height: 90vh; /* Adjust the height as needed */
   background-color: #000; /* Fallback background color */
-  background-image: url('/img/slide/magutu2.jpeg'); /* Set your background image URL */
+  background-image: url('/img/slide/DSC_7623.JPG'); /* Set your background image URL */
   background-size: cover;
   background-position: center;
   color: #fff;
@@ -572,11 +573,27 @@ h6 {
   align-items: center; /* Center horizontally */
 }
 
+/* Style for the hero section */
+.hero11 {
+  /* scroll-padding-top: 1000px; */
+  position: relative;
+  height: 60vh; /* Adjust the height as needed */
+  background-color: #000; /* Fallback background color */
+  background-image: url('/img/slide/magutu6.jpeg'); /* Set your background image URL */
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+  text-align: center;
+  display: flex;
+  flex-direction: column; /* Stack child elements vertically */
+  justify-content: center; /* Center vertically */
+  align-items: center; /* Center horizontally */
+}
 .hero1 {
   position: relative;
-  height: 50vh; /* Adjust the height as needed */
+  height: 60vh; /* Adjust the height as needed */
   background-color: #000; /* Fallback background color */
-  background-image: url('/img/slide/kiandu_launch.jpg'); /* Set your background image URL */
+  background-image: url('/img/slide/magutu1.jpeg'); /* Set your background image URL */
   background-size: cover;
   background-position: center;
   color: #fff;
@@ -606,7 +623,7 @@ h6 {
   position: relative;
   height: 50vh; /* Adjust the height as needed */
   background-color: #000; /* Fallback background color */
-  background-image: url('/img/slide/magutu3.jpeg'); /* Set your background image URL */
+  background-image: url('/img/slide/magutu2.jpeg'); /* Set your background image URL */
   background-size: cover;
   background-position: center;
   color: #fff;
@@ -639,7 +656,7 @@ h6 {
   left: 0;
   width: 100%;
   height: 100%;
-  background: #00000081; /* Adjust the overlay color and opacity as needed */
+  background: #ffffff16; /* Adjust the overlay color and opacity as needed */
 }
 
 /* Style for the hero content */
@@ -649,10 +666,14 @@ h6 {
 
 /* Style for the hero text */
 .hero h1 {
-  font-size: 36px;
+  color: white;
+  background-image: linear-gradient(to right, rgb(186, 139, 0), blue);
+  font-size: 40px;
   font-weight: bold;
   text-align: center;
   display: flex;
+  font-family: Poppins Bold;
+  background-clip: text;
 }
 
 .hero p {

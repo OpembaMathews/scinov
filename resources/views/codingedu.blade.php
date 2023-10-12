@@ -8,30 +8,30 @@
 
     <div class="hero-bg"></div>
         <div class="hero-content">
-            <h2>Let's Raise the Digital Bar for Digital Education.</h2>
+            {{-- <h2>Let's Raise the Digital Bar for Digital Education.</h2> --}}
         </div>
         
 </section>
-<section>
+{{-- <section>
 	<div class="container">
 		<div class="card text-center">
 			<div class="card-header">
 			  Admin Controls
 			</div>
 			<div class="card-body">
-			  <h5 class="card-title">CODING EDUCATION POSTS</h5>
+			  <h5 class="card-title">CODING EDUCATION POSTS</h5> --}}
 			  {{-- <p class="card-text">With supporting text below as a natural lead-in to additional content.</p> --}}
-			  <a href="{{ route('codeEd.codecreate') }}" class="btn btn-primary btn-block">Post On This Page</a>
+			  {{-- <a href="{{ route('codeEd.codecreate') }}" class="btn btn-primary btn-block">Post On This Page</a>
 			  <a href="{{ route('codeEd.codedelete') }}" class="btn btn-danger btn-block">Delete A Post</a>
 			</div>
 		  </div>
 	</div>
-</section>
+</section> --}}
 
  <section>
 
     <div class="section-title">
-        <h1>PROJECT MODEL</h1>
+        <h1>The Power of Coding Education</h1>
         <b>By: Prof.Eddy Owaga - Founding Director SCINOV AFRICA</b>
     </div>
     <div class="container">
@@ -41,23 +41,37 @@
             </div>
             
             <p style="text-align: justify;">
-                How many times were you frustrated while looking
-                out for a good collection of programming/algorithm
-                /interview questions? What did you expect and what
-                did you get? This portal has been created to
-                provide well written, well thought and well
-                explained solutions for selected questions.
-                An IIT Roorkee alumnus and founder of GeeksforGeeks.
-                He loves to solve programming problems in most
-                efficient ways. Apart from GeeksforGeeks, he has
-                worked with DE Shaw and Co. as a software developer
-                and JIIT Noida as an assistant professor. It is a
-                good platform to learn programming. It is an
-                educational website. Prepare for the Recruitment
-                drive of product based companies like Microsoft,
-                Amazon, Adobe etc with a free online placement
-                preparation course. Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis labore tempore exercitationem cupiditate distinctio dolore, soluta laborum. Illum autem voluptatum quis est et pariatur expedita incidunt, minima quidem ducimus nobis officiis, animi ad odit consectetur tenetur quisquam natus iusto soluta architecto blanditiis sequi fugiat. Quis praesentium error, quas doloremque, dignissimos animi dolores nesciunt tempore doloribus eius ab quidem. Sapiente et debitis dolorum vero voluptatum earum ut fuga sed exercitationem soluta. Harum voluptatibus, doloremque quia cumque at deserunt blanditiis consequatur quis error veniam perspiciatis minus impedit ratione officia eaque pariatur labore odio necessitatibus, dolores recusandae aut consequuntur exercitationem molestiae ipsam? Incidunt doloribus praesentium quas esse provident iusto consequatur necessitatibus quia ducimus! Tempora voluptate consequuntur, rem nesciunt modi commodi sit ullam fugiat, eos impedit quis autem aperiam vitae incidunt sunt cumque harum animi at beatae libero, expedita quidem quisquam voluptatibus iusto? Harum nobis quia molestiae soluta voluptatum eum quisquam? Animi nemo cumque natus blanditiis nisi maiores delectus suscipit! Asperiores harum delectus nemo iste, quo magnam praesentium, aperiam quos quod soluta fugiat dolores ad. Autem deleniti perspiciatis doloribus assumenda qui sunt, tempore incidunt eius laborum vero aliquam quod ea nobis, molestiae repellendus dicta earum magnam dolorum libero fuga sint ipsum aliquid! Facilis alias quod, tenetur beatae quidem ut maxime odio dignissimos! Excepturi incidunt nam voluptatum fuga repudiandae illum iure eveniet aliquam beatae alias maiores assumenda dolore tenetur nobis exercitationem, dolor reprehenderit architecto rem atque. Obcaecati nostrum qui ratione tenetur saepe dolorum porro sapiente minima cumque doloremque? Libero est adipisci, in quisquam error voluptatem perferendis. Optio cupiditate quasi velit labore ut beatae voluptatibus. Veniam ducimus tempore ad earum architecto cupiditate reiciendis quo vero molestias distinctio sequi id totam quis vitae sint nostrum, corporis mollitia laudantium suscipit voluptates atque facere? Vel earum adipisci, aut eos laborum assumenda alias nesciunt cumque aliquid eligendi ipsa cum quae.
-            </p>
+                Nurturing Future Innovators: The Power of Coding Education
+
+In the digital age, coding has become the language of innovation, the key to unlocking endless possibilities. It's not just a technical skill; it's a tool that empowers individuals to create, solve problems, and shape the future. At Science Innovation Africa (SCINOV AFRICA), we believe that coding education is a cornerstone of modern learning. In this blog post, we explore the significance of coding education and its transformative impact on students.
+
+<p style="text-align: justify;">Coding: More Than Just Lines of Text
+    Coding, in its essence, is the process of giving instructions to a computer to perform a specific task. But it's far more than lines of text on a screen; it's a means of expression, problem-solving, and creativity. Through coding, students learn how to think logically, break down complex problems, and build solutions from the ground up. It's a skill that fosters critical thinking and innovation.
+    </p>
+<p style="text-align: justify;">
+    Empowering the Next Generation
+In a world that's increasingly reliant on technology, coding education is more critical than ever. By teaching students to code, we're preparing them for a future where technology is pervasive. It equips them with skills that are not only valuable in tech-related careers but also in a wide range of fields. Coding is a universal skill that empowers students to become creators rather than mere consumers of technology.
+
+Real-World Applications
+Coding is not an abstract concept; it has real-world applications. Students can use their coding skills to build websites, create mobile apps, analyze data, and even control hardware. By engaging with hands-on projects, they gain a deeper understanding of the practical use of coding in everyday life. These skills are valuable not only in the job market but also for personal and entrepreneurial endeavors.
+
+</p>
+<p style="text-align: justify;">
+    Problem-Solving and Critical Thinking
+Coding involves breaking down complex problems into smaller, manageable steps. This process of decomposition and problem-solving is a fundamental aspect of coding. It fosters critical thinking skills that are transferable to other areas of life. Students who learn to code become better equipped to approach challenges methodically and with confidence.
+
+Coding Education at SCINOV AFRICA
+At SCINOV AFRICA, we're dedicated to providing high-quality coding education. We offer programs that introduce students to coding concepts, languages, and tools. Our goal is to make coding accessible to students of all backgrounds, providing them with the knowledge and skills they need to thrive in the digital world.
+
+</p>
+<p style="text-align: justify;">
+    The Future is Code
+In a world where technology continues to advance at a rapid pace, coding education is an investment in the future. It's a way to ensure that the next generation is not just a passive observer but an active participant in the digital revolution. By teaching students to code, we are giving them the power to shape the world around them.
+
+Coding education is about more than learning a programming language; it's about unlocking creativity, problem-solving abilities, and a future full of opportunities. At SCINOV AFRICA, we're committed to nurturing the innovators of tomorrow through coding education. Join us on this exciting journey of discovery and empowerment.
+            
+</p>
+</p>
 
         </div>
     </div>

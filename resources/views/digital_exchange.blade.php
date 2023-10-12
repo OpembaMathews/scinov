@@ -8,7 +8,7 @@
 
     <div class="hero-bg"></div>
         <div class="hero-content">
-            <h2>Let's Raise the Digital Bar for Digital Education.</h2>
+            {{-- <h2>Let's Raise the Digital Bar for Digital Education.</h2> --}}
         </div>
 
 </section>
@@ -31,8 +31,8 @@
  <section>
 
     <div class="section-title">
-        <h1>PROJECT MODEL</h1>
-        <b>By: Prof.Eddy Owaga - Founding Director SCINOV AFRICA</b>
+        <h1>Digital Cultural Exchange</h1>
+        <b>By: Dr. Joshua Gikonyo - Founding Director SCINOV AFRICA</b>
     </div>
     <div class="container">
         <!-- Message if a post is posted successfully -->
@@ -48,8 +48,8 @@
                     <img class="img-thumbnail" src="{{ asset('images/'.$exchange->image) }}" alt="Longtail boat in Thailand" style="max-height: 200px;">
                 </div>
                 <p style="text-align: justify;">
-                    {{-- {!! nl2br(e(strip_tags(html_entity_decode($exchange->description)))) !!} --}}
-                    {!! e(strip_tags(html_entity_decode($exchange->description ))) !!}
+                    {!! nl2br(e(strip_tags(html_entity_decode($exchange->description)))) !!}
+                    {{-- {!! e(strip_tags(html_entity_decode($exchange->description ))) !!} --}}
                     {{-- {!! $exchange->description !!} --}}
                 </p>
                 <p class="card-text"><small class="text-muted">Last updated {{ $exchange->updated_at->diffForHumans() }}</small></p>

@@ -4,10 +4,10 @@
 @section('content')
 
 <br><br>
-<section class="hero">
+<section class="hero11">
     <div class="hero-bg"></div>
     <div class="hero-content">
-      <h1>Let's Raise the Digital Bar for Digital Education</h1>
+      {{-- <h1>Let's Raise the Digital Bar for Digital Education</h1> --}}
     </div>
   </section>
 
@@ -17,18 +17,18 @@
         <div class="container" style="max-width: 850px;">
           
           
-          <div class="card text-center">
+          {{-- <div class="card text-center">
             <div class="card-header">
               Admin Feature
             </div>
             <div class="card-body">
-              <h5 class="card-title">EVENTS UPDATES</h5>
+              <h5 class="card-title">EVENTS UPDATES</h5> --}}
               {{-- <p class="card-text">With supporting text below as a natural lead-in to additional content.</p> --}}
-              <a href="{{ route('events.create') }}" class="btn btn-primary btn-block">Add An Event</a>
+              {{-- <a href="{{ route('events.create') }}" class="btn btn-primary btn-block">Add An Event</a>
               <a href="{{ route('events.delete') }}" class="btn btn-danger btn-block">Delete An Event</a>
             </div>
           </div>
-          <hr>
+          <hr> --}}
           <!-- Message if a post is posted successfully -->
           @if ($message = Session::get('success'))
           <div class="alert alert-success">

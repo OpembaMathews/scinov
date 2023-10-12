@@ -4,14 +4,14 @@
 @section('content')
 
     <section id="contact" class="contact">
-        <div class="map-section pt-5">
+        <div class="map-section ">
             
-            <div class="map-section pt-5">
+            <div class="map-section pt-4">
                
                 <iframe style="border:0; width: 100%; height: 350px;"
                     src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3987.3134772028576!2d36.948766!3d-0.421076!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMCTCsDM4JzUwLjEiTiAzNsKwMTYnMzMuNyJF!5e0!3m2!1sen!2ske!4v1632518324165!5m2!1sen!2ske"
                     frameborder="0" allowfullscreen></iframe>
-            </div>
+            </div><br>
 
         </div>
         <div class="container">
