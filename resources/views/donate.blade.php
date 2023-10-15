@@ -2,32 +2,44 @@
 @section('title', 'Science Innovation Africa')
 
 @section('content')
-<section class="hero">
-    <div class="hero-bg"></div>
-    <div class="hero-content">
-      <h1>Let's Raise the Digital Bar for Digital Education.</h1>
-    </div>
-  </section>
+<section>
+  <br><br>
+  <div class="section-title">
+    <h2> Make a Donation </h2>
+</div>
+</section>
 
-  <section>
+    <!-- Donation Section -->
+    <section class="scrolling-background text-white py-3" style=" height:auto;">
+      <div class="container" style="background-color: rgba(2, 2, 80, 0.796); height:auto;">
+          <br>
+          <div class="row">
+              <div class="col-md-6 offset-md-3">
+                  
+                  <p class="text-center">Your contribution makes a difference.</p>
 
-
-    <div class="container">
-      <div class="section-title">
-        <h2>Coming Soon</h2>
+                  <!-- Donation Form -->
+                  <form>
+                      <div class="form-group">
+                          <label for="amount">Donation Amount:</label>
+                          <input type="text" class="form-control" id="amount" placeholder="Enter amount">
+                      </div>
+                      <div class="form-group">
+                          <label for="name">Name:</label>
+                          <input type="text" class="form-control" id="name" placeholder="Your name">
+                      </div>
+                      <div class="form-group">
+                          <label for="email">Email:</label>
+                          <input type="email" class="form-control" id="email" placeholder="Your email">
+                      </div>
+                      <button type="submit" class="btn btn-light btn-block">Donate Now</button>
+                  </form>
+              </div>
+          </div>
+          <br>
+          <br>
       </div>
-       
-        <div class="countdown" id="countdown"></div>
-        <div class="message">
-            We're working hard to bring you something amazing. Stay tuned for updates!
-        </div>
-        <form class="subscribe-form mt-4">
-            <div class="form-group">
-                <input type="email" class="form-control" placeholder="Enter your email">
-            </div>
-            <button type="submit" class="btn btn-primary">Subscribe</button>
-        </form>
-    </div>
+  </section>
 
     <!-- Bootstrap JS -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>

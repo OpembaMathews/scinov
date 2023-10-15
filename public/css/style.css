@@ -560,7 +560,7 @@ h6 {
 .hero {
   /* scroll-padding-top: 1000px; */
   position: relative;
-  height: 90vh; /* Adjust the height as needed */
+  height: 50vh; /* Adjust the height as needed */
   background-color: #000; /* Fallback background color */
   background-image: url('/img/slide/DSC_7623.JPG'); /* Set your background image URL */
   background-size: cover;
